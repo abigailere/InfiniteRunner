@@ -3876,3 +3876,21 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.09.01-16.45.29:061][499]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2208.084229
 [2025.09.01-16.45.30:058][501]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.09.01-16.45.30:058][501]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2208.746338, Update Interval: 351.313202
+[2025.09.01-16.50.21:237][356]LogUObjectHash: Compacting FUObjectHashTables data took  77.63ms
+[2025.09.01-16.50.26:573][356]LogSlate: Window 'Save Content' being destroyed
+[2025.09.01-16.50.26:970][356]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.01-16.50.28:413][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Gameplay" FILE="../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Maps/Gameplay.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.09.01-16.50.29:032][356]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.09.01-16.50.29:730][356]LogSavePackage: Moving output files for package: /Game/Maps/Gameplay
+[2025.09.01-16.50.29:743][356]LogSavePackage: Moving '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Saved/GameplayB8C5D659466C54B3D39B6FBB8A67AF14.tmp' to '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Maps/Gameplay.umap'
+[2025.09.01-16.50.30:767][356]LogFileHelpers: Saving map 'Gameplay' took 2.554
+[2025.09.01-16.50.30:864][356]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.87 sec (total: 3.96 sec)
+[2025.09.01-16.50.31:058][356]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.01-16.50.31:058][356]LogContentValidation: Enabled validators:
+[2025.09.01-16.50.31:070][356]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.01-16.50.31:070][356]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.01-16.50.31:070][356]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.01-16.50.31:075][356]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.01-16.50.31:075][356]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.01-16.50.31:079][356]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.01-16.50.31:142][356]AssetCheck: /Game/Maps/Gameplay Validating asset
