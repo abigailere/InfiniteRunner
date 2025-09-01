@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\owner\\unreal projects\\g-force-game\\g_force\\intermediate\\build\\win64\\unrealeditor\\inc\\g_force\\uht\\g_forcegamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\owner\\unreal projects\\g-force-game\\g_force\\intermediate\\build\\win64\\x64\\g_forceeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\owner\\unreal projects\\g-force-game\\g_force\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\g_force\\definitions.g_force.h",
+            "c:\\users\\owner\\unreal projects\\g-force-game\\g_force\\source\\g_force\\g_forcegamemode.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\users\\owner\\unreal projects\\g-force-game\\g_force\\intermediate\\build\\win64\\unrealeditor\\inc\\g_force\\uht\\g_forcegamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

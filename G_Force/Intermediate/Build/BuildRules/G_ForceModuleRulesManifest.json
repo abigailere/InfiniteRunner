@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Owner\\Unreal Projects\\G-Force-Game\\G_Force\\Source\\G_Force\\G_Force.Build.cs",
+		"C:\\Users\\Owner\\Unreal Projects\\G-Force-Game\\G_Force\\Source\\G_Force.Target.cs",
+		"C:\\Users\\Owner\\Unreal Projects\\G-Force-Game\\G_Force\\Source\\G_ForceEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "G_Force",
+			"Path": "..\\Source\\G_Force.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "G_ForceEditor",
+			"Path": "..\\Source\\G_ForceEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
