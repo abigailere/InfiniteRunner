@@ -11,6 +11,8 @@
     <None Include="..\..\Source\G_ForceEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.editorconfig" />
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -51,6 +53,12 @@
       <Filter>Source\G_Force</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\G_Force\G_ForceGameMode.h">
+      <Filter>Source\G_Force</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G_Force\RunnerCharacter.cpp">
+      <Filter>Source\G_Force</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G_Force\RunnerCharacter.h">
       <Filter>Source\G_Force</Filter>
     </ClCompile>
   </ItemGroup>

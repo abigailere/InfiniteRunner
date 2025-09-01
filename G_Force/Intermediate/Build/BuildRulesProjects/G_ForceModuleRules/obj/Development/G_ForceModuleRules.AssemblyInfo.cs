@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("G_ForceModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c6edb6c652416df1083086556f6a62e6ed9c1ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a797b16794c8aae336ecf86fd6a84b87da5bc467")]
 [assembly: System.Reflection.AssemblyProductAttribute("G_ForceModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("G_ForceModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
