@@ -6,6 +6,7 @@
 #include "Camera/CameraComponent.h"
 //#include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include <iostream>
 
 // Sets default values
 ARunnerCharacter::ARunnerCharacter()
@@ -57,6 +58,12 @@ void ARunnerCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	//get current position of the character and set the camera to that position
+	tempPos = GetActorLocation(); //get the current position of the character
+	tempPos.X -= 850.0f; //changing 850 to negative so the camera is in front of the character
+	tempPos.Z = zPosition; //keep the z position constant
+	SideViewCamera->SetWorldLocation(tempPos); //set the camera to the new position
+
 }
 
 // Called to bind functionality to input
@@ -65,7 +72,7 @@ void ARunnerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump); //whne spacebar is clicked, call the jump function from character that is inhereted
-	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::Jump); //this stops the jump when we release the spacebar, for gforce this may be what's changed
+	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping); //this stops the jump when we release the spacebar, for gforce this may be what's changed
 
 	PlayerInputComponent->BindAxis("MoveRight", this, &ARunnerCharacter::MoveRight); //bind the axis MoveRight to the function MoveRight in this class
 }
@@ -73,8 +80,12 @@ void ARunnerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
 void ARunnerCharacter::MoveRight(float value)
 {
+	UE_LOG(LogTemp, Warning, TEXT("Movement function called."));
+
 	if(CanMove) {
-		AddMovementInput(FVector(0.f, 1.f, 0.f), value); //add movement input in the y direction, negative because we want to move left when we press right
+		UE_LOG(LogTemp, Warning, TEXT("CanMove is true")); //debugging line to see if the function is being called
+		AddMovementInput(FVector(0.f, 1.0f, 0.f), value); //add movement input in the y direction, negative because we want to move left when we press right
+		UE_LOG(LogTemp, Warning, TEXT("after movement input"));//debugging line to see the current location of the character
 	}
 }
 void ARunnerCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)

@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-G_Force-0005.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Owner\Unreal Projects\G-Force-Game\G_Force\Intermediate\Build\Win64\x64\G_ForceEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\Owner\Unreal Projects\G-Force-Game\G_Force\Intermediate\Build\Win64\x64\UnrealEditor\Development\G_Force\G_Force.init.gen.cpp.obj"
+"C:\Users\Owner\Unreal Projects\G-Force-Game\G_Force\Intermediate\Build\Win64\x64\UnrealEditor\Development\G_Force\G_ForceCharacter.gen.cpp.obj"
+"C:\Users\Owner\Unreal Projects\G-Force-Game\G_Force\Intermediate\Build\Win64\x64\UnrealEditor\Development\G_Force\G_ForceGameMode.gen.cpp.obj"
+"C:\Users\Owner\Unreal Projects\G-Force-Game\G_Force\Intermediate\Build\Win64\x64\UnrealEditor\Development\G_Force\RunnerCharacter.gen.cpp.obj"
+"C:\Users\Owner\Unreal Projects\G-Force-Game\G_Force\Intermediate\Build\Win64\x64\UnrealEditor\Development\G_Force\G_Force.cpp.obj"
+"C:\Users\Owner\Unreal Projects\G-Force-Game\G_Force\Intermediate\Build\Win64\x64\UnrealEditor\Development\G_Force\G_ForceCharacter.cpp.obj"
+"C:\Users\Owner\Unreal Projects\G-Force-Game\G_Force\Intermediate\Build\Win64\x64\UnrealEditor\Development\G_Force\G_ForceGameMode.cpp.obj"
+"C:\Users\Owner\Unreal Projects\G-Force-Game\G_Force\Intermediate\Build\Win64\x64\UnrealEditor\Development\G_Force\PerModuleInline.gen.cpp.obj"
+"C:\Users\Owner\Unreal Projects\G-Force-Game\G_Force\Intermediate\Build\Win64\x64\UnrealEditor\Development\G_Force\RunnerCharacter.cpp.obj"
+"C:\Users\Owner\Unreal Projects\G-Force-Game\G_Force\Intermediate\Build\Win64\x64\UnrealEditor\Development\G_Force\Default.rc2.res"
+/OUT:"C:\Users\Owner\Unreal Projects\G-Force-Game\G_Force\Intermediate\Build\Win64\x64\UnrealEditor\Development\G_Force\UnrealEditor-G_Force-0005.lib"
