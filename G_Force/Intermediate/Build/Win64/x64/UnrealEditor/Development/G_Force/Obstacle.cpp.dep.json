@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\owner\\unreal projects\\g-force-game\\g_force\\source\\g_force\\obstacle.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\owner\\unreal projects\\g-force-game\\g_force\\intermediate\\build\\win64\\x64\\g_forceeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\owner\\unreal projects\\g-force-game\\g_force\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\g_force\\definitions.g_force.h",
+            "c:\\users\\owner\\unreal projects\\g-force-game\\g_force\\source\\g_force\\obstacle.h",
+            "c:\\users\\owner\\unreal projects\\g-force-game\\g_force\\intermediate\\build\\win64\\unrealeditor\\inc\\g_force\\uht\\obstacle.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

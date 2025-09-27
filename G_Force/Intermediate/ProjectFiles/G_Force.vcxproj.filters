@@ -34,6 +34,12 @@
     <Filter Include="Source\G_Force">
       <UniqueIdentifier>{3719E9D8-0775-378A-9FCA-D65AFDDD8C85}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\G_Force\Base_Level.cpp">
+      <Filter>Source\G_Force</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G_Force\Base_Level.h">
+      <Filter>Source\G_Force</Filter>
+    </ClCompile>
     <None Include="..\..\Source\G_Force\G_Force.Build.cs">
       <Filter>Source\G_Force</Filter>
     </None>
@@ -53,6 +59,12 @@
       <Filter>Source\G_Force</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\G_Force\G_ForceGameMode.h">
+      <Filter>Source\G_Force</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G_Force\Obstacle.cpp">
+      <Filter>Source\G_Force</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G_Force\Obstacle.h">
       <Filter>Source\G_Force</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\G_Force\RunnerCharacter.cpp">
