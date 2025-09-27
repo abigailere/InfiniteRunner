@@ -27,6 +27,13 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 protected:
-	UPROPERTY(BlueprintREadWrite, EditAnywhere, Category = "Trigger")
-		UBoxComponent* TriggerBox;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "My Triggers");
+	UBoxComponent* Trigger; //can be read and written, editted in editor, blueprint, etc, belongs to category Triggers
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "My Triggers");
+	UBoxComponent* SpawnLocation;
+
+public:
+	UBoxComponent* GetTrigger();
+	UBoxComponent* GetSpawnLocation();
 };

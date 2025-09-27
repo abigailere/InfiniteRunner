@@ -1697,3 +1697,720 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.09.27-02.21.58:146][202]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.09.27-02.21.58:146][202]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.09.27-02.21.58:150][202]AssetCheck: /Game/Blueprints/Obstacles/BP_obstacle Validating asset
+[2025.09.27-02.24.36:310][785]LogEOSSDK: Warning: LogAnalytics: EventCache either took too long to flush (1.097 ms) or had a very large payload (0.778 KB, 1 events). Listing events in the payload for investigation:
+[2025.09.27-02.24.36:321][786]LogEOSSDK: Warning: LogAnalytics: EOSSDK.Heartbeat,784
+[2025.09.27-02.24.37:293][788]LogAnalytics: Display: EventCache took too long to flush (1.037 ms > 1.000 ms). Payload size: 0.437 KB, 1 events. Listing events in the payload for investigation:
+[2025.09.27-02.24.37:293][788]LogAnalytics: Display:     Editor.Usage.Heartbeat,434
+[2025.09.27-02.24.51:295][830]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 975.096680
+[2025.09.27-02.24.52:296][833]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.27-02.24.52:296][833]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 975.763794, Update Interval: 347.927490
+[2025.09.27-02.25.37:307][968]LogAnalytics: Display: EventCache took too long to flush (1.110 ms > 1.000 ms). Payload size: 0.436 KB, 1 events. Listing events in the payload for investigation:
+[2025.09.27-02.25.37:312][968]LogAnalytics: Display:     Editor.Usage.Heartbeat,433
+[2025.09.27-02.29.11:842][721]LogUObjectHash: Compacting FUObjectHashTables data took  13.72ms
+[2025.09.27-02.29.11:965][721]LogStreaming: Display: FlushAsyncLoading(550): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.27-02.29.12:311][721]LogChaosDD: Creating Chaos Debug Draw Scene for world Gameplay
+[2025.09.27-02.29.12:339][721]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/Maps/Gameplay.Gameplay'.
+[2025.09.27-02.29.12:409][721]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Gameplay.Gameplay
+[2025.09.27-02.29.12:418][721]Cmd: MAP LOAD FILE="../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Maps/Gameplay.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2025.09.27-02.29.12:633][721]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.27-02.29.12:650][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.27-02.29.12:650][721]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2025.09.27-02.29.12:773][721]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.27-02.29.12:819][721]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2025.09.27-02.29.12:865][721]LogWorld: UWorld::CleanupWorld for Gameplay, bSessionEnded=true, bCleanupResources=true
+[2025.09.27-02.29.12:865][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.27-02.29.12:922][721]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2025.09.27-02.29.12:956][721]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2025.09.27-02.29.12:964][721]LogAudio: Display: Audio Device (ID: 1) registered with world 'Gameplay'.
+[2025.09.27-02.29.12:964][721]LogChaosDD: Creating Chaos Debug Draw Scene for world Gameplay
+[2025.09.27-02.29.12:988][721]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Game/Maps/Gameplay.Gameplay'.
+[2025.09.27-02.29.13:720][721]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.27-02.29.13:791][721]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2025.09.27-02.29.13:811][721]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.27-02.29.13:813][721]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.083ms to complete.
+[2025.09.27-02.29.13:952][721]LogAutomationController: Ignoring very large delta of 2.59 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-02.29.15:640][722]LogSlate: Took 0.002396 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.09.27-02.29.18:729][723]LogSlate: External Image Picker: DecompressImage failed
+[2025.09.27-02.29.19:139][723]LogAutomationController: Ignoring very large delta of 3.19 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-02.29.52:983][197]LogAutomationController: Ignoring very large delta of 5.34 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-02.30.41:536][840]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/Owner/Unreal Projects/G-Force-Game/G_Force/Source/G_Force/BaseLevel.h'.
+[2025.09.27-02.30.41:537][840]LogVSAccessor: Warning: Couldn't goto column number '1' of line '1' in 'C:/Users/Owner/Unreal Projects/G-Force-Game/G_Force/Source/G_Force/BaseLevel.h'.
+[2025.09.27-02.30.41:538][840]LogVSAccessor: Warning: Couldn't open file 'C:/Users/Owner/Unreal Projects/G-Force-Game/G_Force/Source/G_Force/BaseLevel.cpp'.
+[2025.09.27-02.30.41:590][840]Running C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/Owner/Unreal Projects/G-Force-Game/G_Force/G_Force.uproject" -game -rocket -progress
+[2025.09.27-02.30.41:937][840]Using bundled DotNet SDK version: 8.0.300
+[2025.09.27-02.30.41:937][840]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/Owner/Unreal Projects/G-Force-Game/G_Force/G_Force.uproject" -game -rocket -progress
+[2025.09.27-02.30.43:653][840]Log file: C:\Users\Owner\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2025.09.27-02.30.45:592][840]
+[2025.09.27-02.30.45:592][840]Generating VisualStudio project files:
+[2025.09.27-02.30.45:693][840]Discovering modules, targets and source code for project...
+[2025.09.27-02.31.01:307][840]Binding IntelliSense data...
+[2025.09.27-02.31.05:553][840]Exception while generating include data for UnrealEditor: System.ArgumentNullException: Value cannot be null. (Parameter 'element')
+[2025.09.27-02.31.05:553][840]   at System.ArgumentNullException.Throw(String paramName)
+[2025.09.27-02.31.05:553][840]   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+[2025.09.27-02.31.05:556][840]   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element)
+[2025.09.27-02.31.05:556][840]   at UnrealBuildTool.ModuleRules.IsValidForTarget(Type moduleType, ReadOnlyTargetRules targetRules, String& invalidReason) in C:\Program Files\Epic Games\UE_5.5\Engine\Source\Programs\UnrealBuildTool\Configuration\ModuleRules.cs:line 1680
+[2025.09.27-02.31.05:556][840]   at UnrealBuildTool.UEBuildTarget.AddAllValidModulesToTarget(ILogger Logger) in C:\Program Files\Epic Games\UE_5.5\Engine\Source\Programs\UnrealBuildTool\Configuration\UEBuildTarget.cs:line 4266
+[2025.09.27-02.31.05:556][840]   at UnrealBuildTool.UEBuildTarget.PreBuildSetup(ILogger Logger) in C:\Program Files\Epic Games\UE_5.5\Engine\Source\Programs\UnrealBuildTool\Configuration\UEBuildTarget.cs:line 3720
+[2025.09.27-02.31.05:556][840]   at UnrealBuildTool.UEBuildTarget.Create(TargetDescriptor Descriptor, Boolean bSkipRulesCompile, Boolean bForceRulesCompile, Boolean bUsePrecompiled, UnrealIntermediateEnvironment IntermediateEnvironment, ILogger Logger) in C:\Program Files\Epic Games\UE_5.5\Engine\Source\Programs\UnrealBuildTool\Configuration\UEBuildTarget.cs:line 1390
+[2025.09.27-02.31.05:557][840]   at UnrealBuildTool.ProjectFileGenerator.GenerateIntelliSenseData(String[] Arguments, List`1 Targets, ILogger Logger) in C:\Program Files\Epic Games\UE_5.5\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:line 2176
+[2025.09.27-02.31.09:420][840]Binding IntelliSense data... 100%
+[2025.09.27-02.31.09:420][840]Writing project files...
+[2025.09.27-02.31.12:062][840]Writing project files... 100%
+[2025.09.27-02.31.12:062][840]
+[2025.09.27-02.31.12:062][840]Generating QueryTargets data for editor...
+[2025.09.27-02.31.12:063][840]Total execution time: 29.63 seconds
+[2025.09.27-02.31.13:663][840]LogStreaming: Display: FlushAsyncLoading(552): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.27-02.31.13:992][840]Candidate modules for hot reload:
+[2025.09.27-02.31.13:992][840]  G_Force
+[2025.09.27-02.31.14:020][840]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=G_Force,5263 G_ForceEditor Win64 Development -Project="C:/Users/Owner/Unreal Projects/G-Force-Game/G_Force/G_Force.uproject" "C:/Users/Owner/Unreal Projects/G-Force-Game/G_Force/G_Force.uproject"  -IgnoreJunk]
+[2025.09.27-02.32.16:764][840]CompilerResultsLog: Using bundled DotNet SDK version: 8.0.300
+[2025.09.27-02.32.16:791][840]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=G_Force,5263 G_ForceEditor Win64 Development -Project="C:/Users/Owner/Unreal Projects/G-Force-Game/G_Force/G_Force.uproject" "C:/Users/Owner/Unreal Projects/G-Force-Game/G_Force/G_Force.uproject"  -IgnoreJunk
+[2025.09.27-02.32.16:792][840]CompilerResultsLog: Log file: C:\Users\Owner\AppData\Local\UnrealBuildTool\Log.txt
+[2025.09.27-02.32.16:792][840]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Owner\Unreal Projects\G-Force-Game).
+[2025.09.27-02.32.16:792][840]CompilerResultsLog: Creating makefile for G_ForceEditor (command line arguments changed)
+[2025.09.27-02.32.16:792][840]CompilerResultsLog: Parsing headers for G_ForceEditor
+[2025.09.27-02.32.16:793][840]CompilerResultsLog:   Running Internal UnrealHeaderTool "C:\Users\Owner\Unreal Projects\G-Force-Game\G_Force\G_Force.uproject" "C:\Users\Owner\Unreal Projects\G-Force-Game\G_Force\Intermediate\Build\Win64\G_ForceEditor\Development\G_ForceEditor.uhtmanifest" -WarningsAsErrors -installed
+[2025.09.27-02.32.16:793][840]CompilerResultsLog: Total of 3 written
+[2025.09.27-02.32.16:793][840]CompilerResultsLog: Reflection code generated for G_ForceEditor in 8.4344122 seconds
+[2025.09.27-02.32.16:793][840]CompilerResultsLog: Building G_ForceEditor...
+[2025.09.27-02.32.16:793][840]CompilerResultsLog: Using Visual Studio 2022 14.38.33145 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2025.09.27-02.32.16:794][840]CompilerResultsLog: [Adaptive Build] Excluded from G_Force unity file: BaseLevel.cpp
+[2025.09.27-02.32.16:794][840]CompilerResultsLog: Determining max actions to execute in parallel (4 physical cores, 8 logical cores)
+[2025.09.27-02.32.16:794][840]CompilerResultsLog:   Executing up to 4 processes, one per physical core
+[2025.09.27-02.32.16:794][840]CompilerResultsLog:   Requested 1.5 GB memory per action, 1.06 GB available: limiting max parallel actions to 1
+[2025.09.27-02.32.16:794][840]CompilerResultsLog: Using Unreal Build Accelerator local executor to run 6 action(s)
+[2025.09.27-02.32.16:794][840]CompilerResultsLog:   Storage capacity 40Gb
+[2025.09.27-02.32.16:794][840]CompilerResultsLog: ---- Starting trace: 250926_223132 ----
+[2025.09.27-02.32.16:794][840]CompilerResultsLog: UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+[2025.09.27-02.32.16:794][840]CompilerResultsLog: ------ Building 6 action(s) started ------
+[2025.09.27-02.32.16:794][840]CompilerResultsLog: [1/6] Compile [x64] BaseLevel.cpp
+[2025.09.27-02.32.16:794][840]CompilerResultsLog: [2/6] Compile [x64] BaseLevel.gen.cpp
+[2025.09.27-02.32.16:794][840]CompilerResultsLog: [3/6] Compile [x64] G_Force.init.gen.cpp
+[2025.09.27-02.32.16:794][840]CompilerResultsLog: [4/6] Link [x64] UnrealEditor-G_Force-5263.dll
+[2025.09.27-02.32.16:794][840]CompilerResultsLog:    Creating object C:\Users\Owner\Unreal Projects\G-Force-Game\G_Force\Binaries\Win64\UnrealEditor-G_Force-5263.exp
+[2025.09.27-02.32.16:794][840]CompilerResultsLog: [5/6] Link [x64] UnrealEditor-G_Force-5263.lib
+[2025.09.27-02.32.16:794][840]CompilerResultsLog: [6/6] WriteMetadata G_ForceEditor.target (UBA disabled)
+[2025.09.27-02.32.16:794][840]CompilerResultsLog: Trace file written to C:/Users/Owner/AppData/Local/UnrealBuildTool/Log.uba with size 5.6kb
+[2025.09.27-02.32.16:794][840]CompilerResultsLog: Total time in Unreal Build Accelerator local executor: 43.26 seconds
+[2025.09.27-02.32.16:794][840]CompilerResultsLog: Total execution time: 62.14 seconds
+[2025.09.27-02.32.16:794][840]LogMainFrame: MainFrame: Module compiling took 63.122 seconds
+[2025.09.27-02.32.17:824][840]LogUObjectHash: Compacting FUObjectHashTables data took  22.57ms
+[2025.09.27-02.32.21:381][840]LogClass: UPackage /Script/G_Force Reload.
+[2025.09.27-02.32.21:383][840]LogClass: Could not find existing class BaseLevel in package /Script/G_Force for reload, assuming new or modified class
+[2025.09.27-02.32.23:915][840]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2025.09.27-02.32.24:146][840]Display: HotReload took 71.1s.
+[2025.09.27-02.32.24:147][840]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 5 classes unchanged, 1 function remapped
+[2025.09.27-02.32.24:150][840]Warning: HotReload operation took 71.1s.
+[2025.09.27-02.32.25:554][840]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/Owner/Unreal Projects/G-Force-Game/G_Force/Source/G_Force/BaseLevel.h'.
+[2025.09.27-02.32.25:555][840]LogVSAccessor: Warning: Couldn't goto column number '1' of line '1' in 'C:/Users/Owner/Unreal Projects/G-Force-Game/G_Force/Source/G_Force/BaseLevel.h'.
+[2025.09.27-02.32.25:555][840]LogVSAccessor: Warning: Couldn't open file 'C:/Users/Owner/Unreal Projects/G-Force-Game/G_Force/Source/G_Force/BaseLevel.cpp'.
+[2025.09.27-02.32.25:572][840]LogSlate: Window 'Add C++ Class' being destroyed
+[2025.09.27-02.32.30:478][840]LogHotReload: New module detected: UnrealEditor-G_Force-5263.dll
+[2025.09.27-02.32.31:489][840]LogAutomationController: Ignoring very large delta of 118.14 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-02.32.31:533][840]LogHotReload: Starting Hot-Reload from IDE
+[2025.09.27-02.32.33:838][840]LogUObjectHash: Compacting FUObjectHashTables data took  34.38ms
+[2025.09.27-02.32.34:613][840]LogUObjectHash: Compacting FUObjectHashTables data took  22.81ms
+[2025.09.27-02.32.34:714][840]Display: HotReload took  3.2s.
+[2025.09.27-02.32.34:714][840]Display: Reload/Re-instancing Complete: No object changes detected
+[2025.09.27-02.32.36:823][841]LogAutomationController: Ignoring very large delta of 5.34 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-02.32.37:077][843]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.09.27-02.32.48:591][877]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1452.391235
+[2025.09.27-02.32.49:587][880]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.27-02.32.49:588][880]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1453.057617, Update Interval: 335.816528
+[2025.09.27-02.34.11:652][212]LogToolMenus: Warning: Menu item not found: 'Rename' for insert: 'BatchRenameObject'
+[2025.09.27-02.34.13:590][212]LogAutomationController: Ignoring very large delta of 2.84 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-02.34.26:223][ 41]LogToolMenus: Warning: Menu item not found: 'Rename' for insert: 'BatchRenameObject'
+[2025.09.27-02.34.40:332][274]LogToolMenus: Warning: Menu item not found: 'Rename' for insert: 'BatchRenameObject'
+[2025.09.27-02.34.50:114][816]LogToolMenus: Warning: Menu item not found: 'Rename' for insert: 'BatchRenameObject'
+[2025.09.27-02.38.53:623][661]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1817.330322
+[2025.09.27-02.38.54:556][663]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.27-02.38.54:573][663]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1817.996826, Update Interval: 320.805084
+[2025.09.27-02.45.04:972][802]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2188.759766
+[2025.09.27-02.45.05:952][804]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.27-02.45.05:953][804]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2189.422363, Update Interval: 356.601471
+[2025.09.27-02.46.38:212][ 75]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.09.27-02.46.38:666][ 75]LogAutomationController: Ignoring very large delta of 2.69 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-02.47.30:987][212]LogD3D11RHI: GetQueryData is taking a very long time (5.0 s) (00000000)
+[2025.09.27-02.47.31:159][213]LogD3D11RHI: Timed out while waiting for GPU query. (Timeout 5.0 s) (ErrorCode 00000001)
+[2025.09.27-02.47.31:167][213]LogAutomationController: Ignoring very large delta of 5.66 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-02.47.34:414][214]LogAutomationController: Ignoring very large delta of 3.32 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-02.51.45:525][967]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2589.228271
+[2025.09.27-02.51.48:092][974]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.27-02.51.48:101][975]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2591.560547, Update Interval: 358.978241
+[2025.09.27-02.56.36:271][835]LogEOSSDK: Warning: LogAnalytics: EventCache either took too long to flush (1.917 ms) or had a very large payload (0.783 KB, 1 events). Listing events in the payload for investigation:
+[2025.09.27-02.56.36:374][836]LogEOSSDK: Warning: LogAnalytics: EOSSDK.Heartbeat,789
+[2025.09.27-02.58.42:847][216]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3006.633301
+[2025.09.27-02.58.43:835][218]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.27-02.58.43:840][218]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3007.300781, Update Interval: 341.329987
+[2025.09.27-03.05.16:114][374]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3399.906250
+[2025.09.27-03.05.17:106][377]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.27-03.05.17:107][378]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3400.571533, Update Interval: 302.019714
+[2025.09.27-03.09.38:011][182]LogEOSSDK: Warning: LogAnalytics: EventCache either took too long to flush (6.361 ms) or had a very large payload (1.481 KB, 2 events). Listing events in the payload for investigation:
+[2025.09.27-03.09.38:213][184]LogEOSSDK: Warning: LogAnalytics: EOSSDK.HTTP.Complete,714
+[2025.09.27-03.09.38:213][184]LogEOSSDK: Warning: LogAnalytics: EOSSDK.Heartbeat,790
+[2025.09.27-03.10.23:436][319]LogDerivedDataCache: C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.010 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.09.27-03.11.10:064][458]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3753.850342
+[2025.09.27-03.11.11:072][462]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.27-03.11.11:073][462]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3754.515381, Update Interval: 341.586365
+[2025.09.27-03.13.36:391][896]LogEOSSDK: Warning: LogAnalytics: EventCache either took too long to flush (1.679 ms) or had a very large payload (1.481 KB, 2 events). Listing events in the payload for investigation:
+[2025.09.27-03.13.36:403][897]LogEOSSDK: Warning: LogAnalytics: EOSSDK.HTTP.Complete,714
+[2025.09.27-03.13.36:404][897]LogEOSSDK: Warning: LogAnalytics: EOSSDK.Heartbeat,790
+[2025.09.27-03.15.10:832][329]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.09.27-03.15.10:860][329]LogContentBrowser: Creating deferred item: NewFolder
+[2025.09.27-03.15.10:934][330]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.09.27-03.15.14:598][368]LogContentBrowser: Attempting asset rename: NewFolder -> Levels
+[2025.09.27-03.15.14:628][368]LogContentBrowser: End creating deferred item NewFolder
+[2025.09.27-03.15.48:222][473]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.09.27-03.15.48:270][473]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.09.27-03.15.48:280][473]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.09.27-03.15.48:291][473]LogAutomationController: Ignoring very large delta of 25.65 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-03.15.48:357][475]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.09.27-03.16.00:052][593]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Level1
+[2025.09.27-03.16.00:669][593]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.09.27-03.16.11:070][704]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Levels/BP_Level1.BP_Level1
+[2025.09.27-03.16.11:179][704]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.09.27-03.16.11:274][704]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_4'.
+[2025.09.27-03.16.14:503][704]LogAutomationController: Ignoring very large delta of 3.47 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-03.17.21:019][ 47]LogSlate: Window 'BP_Level1' being destroyed
+[2025.09.27-03.17.27:601][267]LogAutomationController: Ignoring very large delta of 2.11 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-03.17.30:466][379]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.09.27-03.17.30:490][379]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.27-03.17.36:717][379]LogUObjectHash: Compacting FUObjectHashTables data took 446.68ms
+[2025.09.27-03.17.43:733][379]LogAutomationController: Ignoring very large delta of 13.49 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-03.17.43:801][379]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4147.536621
+[2025.09.27-03.17.49:090][380]LogAutomationController: Ignoring very large delta of 5.36 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-03.18.14:658][451]LogEOSSDK: Warning: LogHttp: 00000A8F25DD0000: HTTP request timed out after 30.00 seconds URL=https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B4786BB3B-4075-DFAA-D6CB-188C011A5F0B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.09.27-03.18.15:095][453]LogHttp: Warning: 00000A8F2616A100: request failed, libcurl error: 28 (Timeout was reached)
+[2025.09.27-03.18.15:095][453]LogHttp: Warning: 00000A8F2616A100: libcurl info message cache 0 (Connection 2 seems to be dead)
+[2025.09.27-03.18.15:095][453]LogHttp: Warning: 00000A8F2616A100: libcurl info message cache 1 (Closing connection)
+[2025.09.27-03.18.15:165][453]LogHttp: Warning: 00000A8F2616A100: libcurl info message cache 2 (TLSv1.3 (IN), TLS alert, close notify (256):)
+[2025.09.27-03.18.15:226][453]LogHttp: Warning: 00000A8F2616A100: libcurl info message cache 3 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.09.27-03.18.15:226][453]LogHttp: Warning: 00000A8F2616A100: libcurl info message cache 4 (Resolving timed out after 30000 milliseconds)
+[2025.09.27-03.18.15:226][453]LogHttp: Warning: 00000A8F2616A100: libcurl info message cache 5 (Closing connection)
+[2025.09.27-03.18.17:006][459]LogEOSSDK: Warning: LogHttp: 00000A8F25DD0000: request failed, libcurl error: 0 (No error)
+[2025.09.27-03.18.17:006][459]LogEOSSDK: Warning: LogHttp: 00000A8F25DD0000: libcurl info message cache 0 (Connection 22 seems to be dead)
+[2025.09.27-03.18.17:006][459]LogEOSSDK: Warning: LogHttp: 00000A8F25DD0000: libcurl info message cache 1 (Closing connection)
+[2025.09.27-03.18.17:006][459]LogEOSSDK: Warning: LogHttp: 00000A8F25DD0000: libcurl info message cache 2 (TLSv1.3 (IN), TLS alert, close notify (256):)
+[2025.09.27-03.18.17:006][459]LogEOSSDK: Warning: LogHttp: 00000A8F25DD0000: libcurl info message cache 3 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.09.27-03.18.17:006][459]LogEOSSDK: Warning: LogHttp: 00000A8F25DD0000: libcurl info message cache 4 (Hostname in DNS cache was stale, zapped)
+[2025.09.27-03.18.17:006][459]LogEOSSDK: Warning: LogHttp: 00000A8F25DD0000: libcurl info message cache 5 (Closing connection)
+[2025.09.27-03.18.17:354][460]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B4786BB3B-4075-DFAA-D6CB-188C011A5F0B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.09.27-03.18.17:682][461]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.27-03.18.17:686][461]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4181.138672, Update Interval: 317.490784
+[2025.09.27-03.18.36:350][517]LogEOSSDK: Warning: LogAnalytics: EventCache either took too long to flush (6.555 ms) or had a very large payload (1.491 KB, 2 events). Listing events in the payload for investigation:
+[2025.09.27-03.18.36:356][518]LogEOSSDK: Warning: LogAnalytics: EOSSDK.Heartbeat,787
+[2025.09.27-03.18.36:356][518]LogEOSSDK: Warning: LogAnalytics: EOSSDK.HTTP.Complete,727
+[2025.09.27-03.21.11:187][176]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.27-03.21.11:297][176]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Levels/BP_Level1] ([2] browsable assets)...
+[2025.09.27-03.21.11:298][176]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Levels/BP_Level1]
+[2025.09.27-03.21.11:298][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Levels/BP_Level1" FILE="../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level1.uasset" SILENT=true
+[2025.09.27-03.21.11:421][176]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/BP_Level1
+[2025.09.27-03.21.11:423][176]LogSavePackage: Moving '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Saved/BP_Level19B5773C2424207BF567D1E8006D1E7FC.tmp' to '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level1.uasset'
+[2025.09.27-03.21.11:633][176]LogFileHelpers: InternalPromptForCheckoutAndSave took 446.788 ms (total: 704.311 ms)
+[2025.09.27-03.21.11:746][176]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.27-03.21.11:746][176]LogContentValidation: Enabled validators:
+[2025.09.27-03.21.11:749][176]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.27-03.21.11:749][176]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.27-03.21.11:749][176]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.27-03.21.11:749][176]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.27-03.21.11:749][176]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.27-03.21.11:750][176]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.27-03.21.11:757][176]AssetCheck: /Game/Blueprints/Levels/BP_Level1 Validating asset
+[2025.09.27-03.21.14:854][300]LogUObjectHash: Compacting FUObjectHashTables data took  21.73ms
+[2025.09.27-03.24.15:118][712]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4538.836426
+[2025.09.27-03.24.16:032][714]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.27-03.24.16:040][714]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4539.508301, Update Interval: 335.450317
+[2025.09.27-03.24.37:388][778]LogAnalytics: Display: EventCache took too long to flush (4.013 ms > 1.000 ms). Payload size: 0.429 KB, 1 events. Listing events in the payload for investigation:
+[2025.09.27-03.24.37:393][778]LogAnalytics: Display:     Editor.Usage.Heartbeat,426
+[2025.09.27-03.26.37:447][970]LogAnalytics: Display: EventCache took too long to flush (4.955 ms > 1.000 ms). Payload size: 0.433 KB, 1 events. Listing events in the payload for investigation:
+[2025.09.27-03.26.37:529][971]LogAnalytics: Display:     Editor.Usage.Heartbeat,430
+[2025.09.27-03.28.35:020][314]LogHotReload: New module detected: UnrealEditor-G_Force-0008.dll
+[2025.09.27-03.28.35:381][316]LogHotReload: Starting Hot-Reload from IDE
+[2025.09.27-03.28.36:379][316]LogUObjectHash: Compacting FUObjectHashTables data took  65.67ms
+[2025.09.27-03.28.43:950][316]LogClass: UPackage /Script/G_Force Reload.
+[2025.09.27-03.28.43:951][316]LogClass: UClass BaseLevel Reload.
+[2025.09.27-03.28.43:967][316]LogClass: UClass Base_Level Reload.
+[2025.09.27-03.28.43:971][316]LogClass: Could not find existing class BaseLevel in package /Script/G_Force for reload, assuming new or modified class
+[2025.09.27-03.28.43:975][316]LogClass: Could not find existing class Base_Level in package /Script/G_Force for reload, assuming new or modified class
+[2025.09.27-03.28.44:325][316]Re-instancing BaseLevel after reload.
+[2025.09.27-03.28.44:619][316]Re-instancing Base_Level after reload.
+[2025.09.27-03.28.46:142][316]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2025.09.27-03.28.46:371][316]Display: HotReload took 11.0s.
+[2025.09.27-03.28.46:373][316]Display: Reload/Re-instancing Complete: 1 package changed, 2 classes changed, 4 classes unchanged, 1 function remapped
+[2025.09.27-03.28.49:238][317]LogAutomationController: Ignoring very large delta of 13.87 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-03.29.36:151][251]LogEOSSDK: Warning: LogAnalytics: EventCache either took too long to flush (1.002 ms) or had a very large payload (1.479 KB, 2 events). Listing events in the payload for investigation:
+[2025.09.27-03.29.36:152][252]LogEOSSDK: Warning: LogAnalytics: EOSSDK.HTTP.Complete,714
+[2025.09.27-03.29.36:152][252]LogEOSSDK: Warning: LogAnalytics: EOSSDK.Heartbeat,788
+[2025.09.27-03.29.37:117][309]LogAnalytics: Display: EventCache took too long to flush (1.593 ms > 1.000 ms). Payload size: 0.432 KB, 1 events. Listing events in the payload for investigation:
+[2025.09.27-03.29.37:118][309]LogAnalytics: Display:     Editor.Usage.Heartbeat,429
+[2025.09.27-03.30.22:573][782]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4906.347168
+[2025.09.27-03.30.22:708][788]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.27-03.30.22:723][788]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4906.445312, Update Interval: 358.655975
+[2025.09.27-03.30.29:204][998]LogAutomationController: Ignoring very large delta of 3.00 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-03.30.36:199][229]LogEOSSDK: Warning: LogAnalytics: EventCache either took too long to flush (1.222 ms) or had a very large payload (1.493 KB, 2 events). Listing events in the payload for investigation:
+[2025.09.27-03.30.36:200][229]LogEOSSDK: Warning: LogAnalytics: EOSSDK.Heartbeat,789
+[2025.09.27-03.30.36:201][229]LogEOSSDK: Warning: LogAnalytics: EOSSDK.HTTP.Complete,727
+[2025.09.27-03.31.19:004][223]LogUObjectHash: Compacting FUObjectHashTables data took  29.94ms
+[2025.09.27-03.31.19:351][223]LogAutomationController: Ignoring very large delta of 3.19 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-03.31.51:799][142]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.27-03.31.51:894][142]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Levels/BP_Level1] ([2] browsable assets)...
+[2025.09.27-03.31.51:895][142]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Levels/BP_Level1]
+[2025.09.27-03.31.51:896][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Levels/BP_Level1" FILE="../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level1.uasset" SILENT=true
+[2025.09.27-03.31.51:981][142]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/BP_Level1
+[2025.09.27-03.31.51:985][142]LogSavePackage: Moving '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Saved/BP_Level11BE9139A4E217E863BE8B5A8DAF1D1D5.tmp' to '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level1.uasset'
+[2025.09.27-03.31.52:059][142]LogFileHelpers: InternalPromptForCheckoutAndSave took 259.666 ms (total: 963.978 ms)
+[2025.09.27-03.31.52:171][142]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.27-03.31.52:171][142]LogContentValidation: Enabled validators:
+[2025.09.27-03.31.52:171][142]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.27-03.31.52:171][142]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.27-03.31.52:171][142]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.27-03.31.52:171][142]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.27-03.31.52:171][142]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.27-03.31.52:172][142]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.27-03.31.52:173][142]AssetCheck: /Game/Blueprints/Levels/BP_Level1 Validating asset
+[2025.09.27-03.32.08:139][802]LogSlate: Took 0.002563 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.09.27-03.32.11:544][817]LogAutomationController: Ignoring very large delta of 2.78 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-03.32.19:455][121]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2025.09.27-03.32.19:914][121]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_5'.
+[2025.09.27-03.32.20:568][121]LogAutomationController: Ignoring very large delta of 3.43 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-03.34.23:524][198]LogStreaming: Display: FlushAsyncLoading(554): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.27-03.34.23:650][198]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/BasicShapes/Cube1) ...
+[2025.09.27-03.34.48:625][486]LogStreaming: Display: FlushAsyncLoading(555): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.27-03.35.51:237][532]LogShaderCompilers: Display: ================================================
+[2025.09.27-03.35.51:237][532]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.27-03.35.51:237][532]LogShaderCompilers: Display: Total job queries 161, among them cache hits 11 (6.83%), DDC hits 142 (88.20%), Duplicates 2 (1.24%)
+[2025.09.27-03.35.51:237][532]LogShaderCompilers: Display: Tracking 148 distinct input hashes that result in 135 distinct outputs (91.22%)
+[2025.09.27-03.35.51:237][532]LogShaderCompilers: Display: RAM used: 108.77 KiB of 614.40 MiB budget. Usage: 0.02%
+[2025.09.27-03.35.51:237][532]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.27-03.35.51:239][532]LogShaderCompilers: Display: Shaders Compiled: 6
+[2025.09.27-03.35.51:239][532]LogShaderCompilers: Display: Jobs assigned 6, completed 6 (100%)
+[2025.09.27-03.35.51:239][532]LogShaderCompilers: Display: Average time worker was idle: 25.17 s
+[2025.09.27-03.35.51:239][532]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.11 s
+[2025.09.27-03.35.51:240][532]LogShaderCompilers: Display: Job execution time: average 2.86 s, max 4.09 s
+[2025.09.27-03.35.51:240][532]LogShaderCompilers: Display: Job life time (pending + execution): average 2.94 s, max 4.17
+[2025.09.27-03.35.51:240][532]LogShaderCompilers: Display: Shader code size: average 4.859 KiB, min 2.738 KiB, max 9.598 KiB
+[2025.09.27-03.35.51:240][532]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 13.77 s
+[2025.09.27-03.35.51:240][532]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.02%
+[2025.09.27-03.35.51:240][532]LogShaderCompilers: Display: Jobs were issued in 6 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.27-03.35.51:240][532]LogShaderCompilers: Display: Average processing rate: 0.44 jobs/sec
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display: Total thread time: 11.397 s
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display: Total thread preprocess time: 5.827 s
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display: Percentage time preprocessing: 51.13%
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display: Effective parallelization: 0.83 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 2.21 sec, max 2.21 sec, min 2.21 sec)
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 1.84 sec, max 2.28 sec, min 1.37 sec)
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display:            TShadowDepthVSVertexShadowDepth_OnePassPointLight (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display:             TShadowDepthPSPixelShadowDepth_OnePassPointLight (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 80.57% of total time (compiled    5 times, average 1.84 sec, max 2.28 sec, min 1.37 sec)
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 19.43% of total time (compiled    1 times, average 2.21 sec, max 2.21 sec, min 2.21 sec)
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display:            TShadowDepthVSVertexShadowDepth_OnePassPointLight - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display:             TShadowDepthPSPixelShadowDepth_OnePassPointLight - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display: === Material stats ===
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display: Materials Translated:    132
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display: Material Translation Only: 0.07 s (44%)
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display: Material Cache Hits: 17 (13%)
+[2025.09.27-03.35.51:241][532]LogShaderCompilers: Display: ================================================
+[2025.09.27-03.36.25:715][443]LogStreaming: Display: FlushAsyncLoading(556): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.27-03.37.16:698][164]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5320.482422
+[2025.09.27-03.37.16:792][169]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.27-03.37.16:795][169]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5320.559082, Update Interval: 357.033600
+[2025.09.27-03.38.14:176][931]LogUObjectHash: Compacting FUObjectHashTables data took  45.33ms
+[2025.09.27-03.38.14:304][931]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Gameplay' took 1.731
+[2025.09.27-03.38.14:333][931]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Levels/BP_Level1] ([2] browsable assets)...
+[2025.09.27-03.38.14:364][931]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Levels/BP_Level1.BP_Level1]
+[2025.09.27-03.38.14:365][931]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Levels/BP_Level1]
+[2025.09.27-03.38.14:474][931]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Levels/BP_Level1_Auto1
+[2025.09.27-03.38.14:474][931]LogSavePackage: Moving '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Saved/BP_Level1_Auto1157C5E2742294ED5C36F5499B76E0E56.tmp' to '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Saved/Autosaves/Game/Blueprints/Levels/BP_Level1_Auto1.uasset'
+[2025.09.27-03.38.14:520][931]LogFileHelpers: Auto-saving content packages took 0.213
+[2025.09.27-03.38.14:571][931]LogAutomationController: Ignoring very large delta of 2.47 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-03.38.51:249][119]LogShaderCompilers: Display: ================================================
+[2025.09.27-03.38.51:250][119]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.27-03.38.51:250][119]LogShaderCompilers: Display: Total job queries 170, among them cache hits 16 (9.41%), DDC hits 142 (83.53%), Duplicates 2 (1.18%)
+[2025.09.27-03.38.51:250][119]LogShaderCompilers: Display: Tracking 152 distinct input hashes that result in 138 distinct outputs (90.79%)
+[2025.09.27-03.38.51:250][119]LogShaderCompilers: Display: RAM used: 109.58 KiB of 614.40 MiB budget. Usage: 0.02%
+[2025.09.27-03.38.51:250][119]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.27-03.38.51:250][119]LogShaderCompilers: Display: Shaders Compiled: 10
+[2025.09.27-03.38.51:250][119]LogShaderCompilers: Display: Jobs assigned 10, completed 10 (100%)
+[2025.09.27-03.38.51:250][119]LogShaderCompilers: Display: Average time worker was idle: 37.43 s
+[2025.09.27-03.38.51:250][119]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.11 s
+[2025.09.27-03.38.51:250][119]LogShaderCompilers: Display: Job execution time: average 2.90 s, max 4.67 s
+[2025.09.27-03.38.51:250][119]LogShaderCompilers: Display: Job life time (pending + execution): average 2.97 s, max 4.72
+[2025.09.27-03.38.51:250][119]LogShaderCompilers: Display: Shader code size: average 4.6 KiB, min 1.246 KiB, max 9.598 KiB
+[2025.09.27-03.38.51:250][119]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 21.67 s
+[2025.09.27-03.38.51:250][119]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.02%
+[2025.09.27-03.38.51:250][119]LogShaderCompilers: Display: Jobs were issued in 10 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.27-03.38.51:250][119]LogShaderCompilers: Display: Average processing rate: 0.46 jobs/sec
+[2025.09.27-03.38.51:250][119]LogShaderCompilers: Display: Total thread time: 19.558 s
+[2025.09.27-03.38.51:250][119]LogShaderCompilers: Display: Total thread preprocess time: 6.16 s
+[2025.09.27-03.38.51:250][119]LogShaderCompilers: Display: Percentage time preprocessing: 31.50%
+[2025.09.27-03.38.51:250][119]LogShaderCompilers: Display: Effective parallelization: 0.90 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2025.09.27-03.38.51:250][119]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.27-03.38.51:251][119]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 2.60 sec, max 2.60 sec, min 2.60 sec)
+[2025.09.27-03.38.51:251][119]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    7 times, average 1.75 sec, max 2.28 sec, min 1.30 sec)
+[2025.09.27-03.38.51:251][119]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 1.73 sec, max 2.21 sec, min 1.25 sec)
+[2025.09.27-03.38.51:251][119]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 1.23 sec, max 1.23 sec, min 1.23 sec)
+[2025.09.27-03.38.51:251][119]LogShaderCompilers: Display:            TShadowDepthVSVertexShadowDepth_OnePassPointLight (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.09.27-03.38.51:251][119]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.27-03.38.51:251][119]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 62.72% of total time (compiled    7 times, average 1.75 sec, max 2.28 sec, min 1.30 sec)
+[2025.09.27-03.38.51:251][119]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 17.72% of total time (compiled    2 times, average 1.73 sec, max 2.21 sec, min 1.25 sec)
+[2025.09.27-03.38.51:251][119]LogShaderCompilers: Display:                                                  FVelocityPS - 13.30% of total time (compiled    1 times, average 2.60 sec, max 2.60 sec, min 2.60 sec)
+[2025.09.27-03.38.51:251][119]LogShaderCompilers: Display:                                                  FVelocityVS - 6.27% of total time (compiled    1 times, average 1.23 sec, max 1.23 sec, min 1.23 sec)
+[2025.09.27-03.38.51:251][119]LogShaderCompilers: Display:            TShadowDepthVSVertexShadowDepth_OnePassPointLight - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.09.27-03.38.51:251][119]LogShaderCompilers: Display: === Material stats ===
+[2025.09.27-03.38.51:251][119]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.27-03.38.51:251][119]LogShaderCompilers: Display: Materials Translated:    133
+[2025.09.27-03.38.51:251][119]LogShaderCompilers: Display: Material Total Translate Time: 0.16 s
+[2025.09.27-03.38.51:251][119]LogShaderCompilers: Display: Material Translation Only: 0.07 s (45%)
+[2025.09.27-03.38.51:251][119]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.09.27-03.38.51:251][119]LogShaderCompilers: Display: Material Cache Hits: 17 (13%)
+[2025.09.27-03.38.51:251][119]LogShaderCompilers: Display: ================================================
+[2025.09.27-03.41.18:078][634]LogUObjectHash: Compacting FUObjectHashTables data took   6.62ms
+[2025.09.27-03.41.20:851][782]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.27-03.41.20:932][782]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Levels/BP_Level1] ([2] browsable assets)...
+[2025.09.27-03.41.20:942][782]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Levels/BP_Level1.BP_Level1]
+[2025.09.27-03.41.20:942][782]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Levels/BP_Level1]
+[2025.09.27-03.41.20:942][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Levels/BP_Level1" FILE="../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level1.uasset" SILENT=true
+[2025.09.27-03.41.20:950][782]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/BP_Level1
+[2025.09.27-03.41.20:951][782]LogSavePackage: Moving '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Saved/BP_Level1FC1633C94B0E1FCF46A979B3BB63BA25.tmp' to '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level1.uasset'
+[2025.09.27-03.41.20:984][782]LogFileHelpers: InternalPromptForCheckoutAndSave took 132.733 ms (total: 1.09 sec)
+[2025.09.27-03.41.21:084][782]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.27-03.41.21:084][782]LogContentValidation: Enabled validators:
+[2025.09.27-03.41.21:086][782]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.27-03.41.21:086][782]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.27-03.41.21:087][782]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.27-03.41.21:087][782]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.27-03.41.21:087][782]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.27-03.41.21:087][782]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.27-03.41.21:088][782]AssetCheck: /Game/Blueprints/Levels/BP_Level1 Validating asset
+[2025.09.27-03.41.49:832][119]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.09.27-03.41.49:861][119]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.09.27-03.41.49:870][119]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.09.27-03.41.49:881][119]LogAutomationController: Ignoring very large delta of 13.77 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-03.41.49:900][120]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.09.27-03.41.55:694][182]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Level2
+[2025.09.27-03.41.55:806][182]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.09.27-03.41.55:844][182]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.09.27-03.41.55:898][182]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_6'.
+[2025.09.27-03.42.31:023][334]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Levels/BP_Level2.BP_Level2
+[2025.09.27-03.42.31:035][334]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.09.27-03.42.31:057][334]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_7'.
+[2025.09.27-03.44.05:973][510]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5729.747559
+[2025.09.27-03.44.06:065][515]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.27-03.44.06:066][515]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5729.825195, Update Interval: 325.238190
+[2025.09.27-03.44.46:062][559]LogUObjectHash: Compacting FUObjectHashTables data took  24.39ms
+[2025.09.27-03.44.48:384][651]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.27-03.44.48:477][651]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Levels/BP_Level2] ([2] browsable assets)...
+[2025.09.27-03.44.48:484][651]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Levels/BP_Level2.BP_Level2]
+[2025.09.27-03.44.48:484][651]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Levels/BP_Level2]
+[2025.09.27-03.44.48:484][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Levels/BP_Level2" FILE="../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level2.uasset" SILENT=true
+[2025.09.27-03.44.48:553][651]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/BP_Level2
+[2025.09.27-03.44.48:556][651]LogSavePackage: Moving '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Saved/BP_Level2F004C3944528C41E65117F90017A4612.tmp' to '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level2.uasset'
+[2025.09.27-03.44.48:871][651]LogFileHelpers: InternalPromptForCheckoutAndSave took 487.306 ms (total: 1.58 sec)
+[2025.09.27-03.44.48:963][651]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.27-03.44.48:963][651]LogContentValidation: Enabled validators:
+[2025.09.27-03.44.48:972][651]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.27-03.44.48:972][651]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.27-03.44.48:973][651]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.27-03.44.48:973][651]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.27-03.44.48:973][651]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.27-03.44.48:973][651]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.27-03.44.48:989][651]AssetCheck: /Game/Blueprints/Levels/BP_Level2 Validating asset
+[2025.09.27-03.45.37:100][172]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.27-03.45.37:160][172]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Levels/BP_Level1] ([2] browsable assets)...
+[2025.09.27-03.45.37:167][172]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Levels/BP_Level1.BP_Level1]
+[2025.09.27-03.45.37:167][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Levels/BP_Level1]
+[2025.09.27-03.45.37:167][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Levels/BP_Level1" FILE="../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level1.uasset" SILENT=true
+[2025.09.27-03.45.37:176][172]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/BP_Level1
+[2025.09.27-03.45.37:177][172]LogSavePackage: Moving '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Saved/BP_Level165F77DCD4E71D5909D7A31B583FA1AFB.tmp' to '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level1.uasset'
+[2025.09.27-03.45.37:201][172]LogFileHelpers: InternalPromptForCheckoutAndSave took 101.317 ms (total: 1.68 sec)
+[2025.09.27-03.45.37:257][172]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.27-03.45.37:257][172]LogContentValidation: Enabled validators:
+[2025.09.27-03.45.37:257][172]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.27-03.45.37:257][172]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.27-03.45.37:257][172]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.27-03.45.37:258][172]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.27-03.45.37:258][172]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.27-03.45.37:258][172]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.27-03.45.37:258][172]AssetCheck: /Game/Blueprints/Levels/BP_Level1 Validating asset
+[2025.09.27-03.45.39:125][262]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2025.09.27-03.45.41:517][366]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.27-03.45.41:574][366]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Levels/BP_Level2] ([2] browsable assets)...
+[2025.09.27-03.45.41:581][366]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Levels/BP_Level2.BP_Level2]
+[2025.09.27-03.45.41:581][366]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Levels/BP_Level2]
+[2025.09.27-03.45.41:581][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Levels/BP_Level2" FILE="../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level2.uasset" SILENT=true
+[2025.09.27-03.45.41:589][366]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/BP_Level2
+[2025.09.27-03.45.41:591][366]LogSavePackage: Moving '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Saved/BP_Level2D0AEAE45441A4D10CDCFF2A707665F8A.tmp' to '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level2.uasset'
+[2025.09.27-03.45.41:610][366]LogFileHelpers: InternalPromptForCheckoutAndSave took 92.807 ms (total: 1.77 sec)
+[2025.09.27-03.45.41:672][366]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.27-03.45.41:672][366]LogContentValidation: Enabled validators:
+[2025.09.27-03.45.41:672][366]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.27-03.45.41:672][366]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.27-03.45.41:672][366]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.27-03.45.41:673][366]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.27-03.45.41:673][366]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.27-03.45.41:673][366]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.27-03.45.41:673][366]AssetCheck: /Game/Blueprints/Levels/BP_Level2 Validating asset
+[2025.09.27-03.46.05:798][644]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2025.09.27-03.46.08:079][750]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.27-03.46.08:137][750]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Levels/BP_Level2] ([2] browsable assets)...
+[2025.09.27-03.46.08:144][750]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Levels/BP_Level2.BP_Level2]
+[2025.09.27-03.46.08:144][750]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Levels/BP_Level2]
+[2025.09.27-03.46.08:144][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Levels/BP_Level2" FILE="../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level2.uasset" SILENT=true
+[2025.09.27-03.46.08:152][750]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/BP_Level2
+[2025.09.27-03.46.08:153][750]LogSavePackage: Moving '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Saved/BP_Level29B93B7B84DA7BECF19869A9CD06C2839.tmp' to '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level2.uasset'
+[2025.09.27-03.46.08:171][750]LogFileHelpers: InternalPromptForCheckoutAndSave took 91.425 ms (total: 1.86 sec)
+[2025.09.27-03.46.08:233][750]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.27-03.46.08:234][750]LogContentValidation: Enabled validators:
+[2025.09.27-03.46.08:234][750]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.27-03.46.08:234][750]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.27-03.46.08:234][750]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.27-03.46.08:234][750]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.27-03.46.08:234][750]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.27-03.46.08:234][750]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.27-03.46.08:234][750]AssetCheck: /Game/Blueprints/Levels/BP_Level2 Validating asset
+[2025.09.27-03.46.16:154][183]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.27-03.46.16:210][183]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Levels/BP_Level1] ([2] browsable assets)...
+[2025.09.27-03.46.16:216][183]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Levels/BP_Level1.BP_Level1]
+[2025.09.27-03.46.16:216][183]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Levels/BP_Level1]
+[2025.09.27-03.46.16:216][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Levels/BP_Level1" FILE="../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level1.uasset" SILENT=true
+[2025.09.27-03.46.16:224][183]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/BP_Level1
+[2025.09.27-03.46.16:224][183]LogSavePackage: Moving '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Saved/BP_Level115D1975F459B32A6B939AFA60F0B8FAA.tmp' to '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level1.uasset'
+[2025.09.27-03.46.16:241][183]LogFileHelpers: InternalPromptForCheckoutAndSave took 88.186 ms (total: 1.95 sec)
+[2025.09.27-03.46.16:306][183]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.27-03.46.16:306][183]LogContentValidation: Enabled validators:
+[2025.09.27-03.46.16:306][183]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.27-03.46.16:306][183]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.27-03.46.16:306][183]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.27-03.46.16:306][183]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.27-03.46.16:307][183]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.27-03.46.16:307][183]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.27-03.46.16:307][183]AssetCheck: /Game/Blueprints/Levels/BP_Level1 Validating asset
+[2025.09.27-03.46.38:286][739]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.09.27-03.46.38:306][739]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.09.27-03.46.38:317][739]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.09.27-03.46.38:324][739]LogAutomationController: Ignoring very large delta of 7.16 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-03.46.38:342][740]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.09.27-03.46.48:248][840]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Level3
+[2025.09.27-03.46.48:329][840]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.09.27-03.46.48:345][840]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.09.27-03.46.48:349][840]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_8'.
+[2025.09.27-03.46.49:587][852]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Levels/BP_Level3.BP_Level3
+[2025.09.27-03.46.49:589][852]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.09.27-03.46.49:597][852]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_9'.
+[2025.09.27-03.47.32:243][162]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2025.09.27-03.47.33:590][228]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.27-03.47.33:652][228]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Levels/BP_Level3] ([2] browsable assets)...
+[2025.09.27-03.47.33:663][228]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Levels/BP_Level3.BP_Level3]
+[2025.09.27-03.47.33:663][228]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Levels/BP_Level3]
+[2025.09.27-03.47.33:663][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Levels/BP_Level3" FILE="../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level3.uasset" SILENT=true
+[2025.09.27-03.47.33:671][228]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/BP_Level3
+[2025.09.27-03.47.33:672][228]LogSavePackage: Moving '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Saved/BP_Level321925F4C4E5F3443BC40C7ABA5B496C9.tmp' to '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level3.uasset'
+[2025.09.27-03.47.33:697][228]LogFileHelpers: InternalPromptForCheckoutAndSave took 108.126 ms (total: 2.06 sec)
+[2025.09.27-03.47.33:765][228]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.27-03.47.33:765][228]LogContentValidation: Enabled validators:
+[2025.09.27-03.47.33:765][228]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.27-03.47.33:766][228]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.27-03.47.33:766][228]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.27-03.47.33:766][228]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.27-03.47.33:766][228]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.27-03.47.33:766][228]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.27-03.47.33:767][228]AssetCheck: /Game/Blueprints/Levels/BP_Level3 Validating asset
+[2025.09.27-03.47.50:959][558]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.09.27-03.47.50:980][558]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.09.27-03.47.50:987][558]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.09.27-03.47.50:991][558]LogAutomationController: Ignoring very large delta of 5.35 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-03.47.51:009][559]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.09.27-03.47.52:254][574]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2025.09.27-03.47.52:301][574]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.09.27-03.47.52:445][575]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.09.27-03.47.52:446][575]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_10'.
+[2025.09.27-03.47.52:495][576]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Levels/NewBlueprint.NewBlueprint
+[2025.09.27-03.47.52:495][576]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.09.27-03.47.52:499][576]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_11'.
+[2025.09.27-03.48.09:965][178]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Level4
+[2025.09.27-03.48.11:060][178]LogMetaData: Removing '/Game/Blueprints/Levels/BP_Level4.BP_Level4:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Levels/NewBlueprint.PackageMetaData'
+[2025.09.27-03.48.11:060][178]LogMetaData: Removing '/Game/Blueprints/Levels/BP_Level4.SKEL_BP_Level4_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Levels/NewBlueprint.PackageMetaData'
+[2025.09.27-03.48.11:061][178]LogMetaData: Removing '/Game/Blueprints/Levels/BP_Level4.SKEL_BP_Level4_C' ref from Metadata '/Game/Blueprints/Levels/NewBlueprint.PackageMetaData'
+[2025.09.27-03.48.11:061][178]LogMetaData: Removing '/Game/Blueprints/Levels/BP_Level4.BP_Level4_C' ref from Metadata '/Game/Blueprints/Levels/NewBlueprint.PackageMetaData'
+[2025.09.27-03.48.11:061][178]LogMetaData: Removing '/Game/Blueprints/Levels/BP_Level4.BP_Level4:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Levels/NewBlueprint.PackageMetaData'
+[2025.09.27-03.48.11:061][178]LogMetaData: Removing '/Game/Blueprints/Levels/BP_Level4.BP_Level4:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Blueprints/Levels/NewBlueprint.PackageMetaData'
+[2025.09.27-03.48.11:061][178]LogMetaData: Removing '/Game/Blueprints/Levels/BP_Level4.BP_Level4:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Levels/NewBlueprint.PackageMetaData'
+[2025.09.27-03.48.11:061][178]LogMetaData: Removing '/Game/Blueprints/Levels/BP_Level4.BP_Level4:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Blueprints/Levels/NewBlueprint.PackageMetaData'
+[2025.09.27-03.48.11:061][178]LogMetaData: Removing '/Game/Blueprints/Levels/BP_Level4.BP_Level4:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Levels/NewBlueprint.PackageMetaData'
+[2025.09.27-03.48.11:061][178]LogMetaData: Removing '/Game/Blueprints/Levels/BP_Level4.BP_Level4:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/Blueprints/Levels/NewBlueprint.PackageMetaData'
+[2025.09.27-03.48.11:116][178]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.27-03.48.11:116][178]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Levels/BP_Level4] ([2] browsable assets)...
+[2025.09.27-03.48.11:117][178]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.09.27-03.48.11:118][178]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_12'.
+[2025.09.27-03.48.11:143][178]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Levels/BP_Level4.BP_Level4]
+[2025.09.27-03.48.11:143][178]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Levels/BP_Level4]
+[2025.09.27-03.48.11:143][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Levels/BP_Level4" FILE="../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level4.uasset" SILENT=true
+[2025.09.27-03.48.11:150][178]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/BP_Level4
+[2025.09.27-03.48.11:150][178]LogSavePackage: Moving '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Saved/BP_Level488AB0275461155C8109BAD8CDC885E14.tmp' to '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level4.uasset'
+[2025.09.27-03.48.11:159][178]LogFileHelpers: InternalPromptForCheckoutAndSave took 43.584 ms (total: 2.10 sec)
+[2025.09.27-03.48.11:255][178]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.09.27-03.48.11:291][178]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2025.09.27-03.48.11:319][178]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.09.27-03.48.11:400][178]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.27-03.48.11:400][178]LogContentValidation: Enabled validators:
+[2025.09.27-03.48.11:400][178]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.27-03.48.11:401][178]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.27-03.48.11:401][178]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.27-03.48.11:401][178]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.27-03.48.11:401][178]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.27-03.48.11:401][178]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.27-03.48.11:401][178]AssetCheck: /Game/Blueprints/Levels/BP_Level4 Validating asset
+[2025.09.27-03.49.18:628][676]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.27-03.49.18:705][676]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Levels/BP_Level4] ([2] browsable assets)...
+[2025.09.27-03.49.18:711][676]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Levels/BP_Level4.BP_Level4]
+[2025.09.27-03.49.18:712][676]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Levels/BP_Level4]
+[2025.09.27-03.49.18:712][676]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Levels/BP_Level4" FILE="../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level4.uasset" SILENT=true
+[2025.09.27-03.49.18:721][676]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/BP_Level4
+[2025.09.27-03.49.18:728][676]LogSavePackage: Moving '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Saved/BP_Level4F57C4043417B2C3107A5C1A16FB651D1.tmp' to '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level4.uasset'
+[2025.09.27-03.49.18:761][676]LogFileHelpers: InternalPromptForCheckoutAndSave took 132.613 ms (total: 2.24 sec)
+[2025.09.27-03.49.18:831][676]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.27-03.49.18:831][676]LogContentValidation: Enabled validators:
+[2025.09.27-03.49.18:831][676]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.27-03.49.18:831][676]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.27-03.49.18:831][676]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.27-03.49.18:831][676]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.27-03.49.18:831][676]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.27-03.49.18:831][676]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.27-03.49.18:831][676]AssetCheck: /Game/Blueprints/Levels/BP_Level4 Validating asset
+[2025.09.27-03.49.19:665][713]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2025.09.27-03.49.29:267][837]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.09.27-03.49.29:285][837]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.09.27-03.49.29:294][837]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.09.27-03.49.29:298][837]LogAutomationController: Ignoring very large delta of 4.91 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.27-03.49.29:313][838]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.09.27-03.49.39:771][956]LogContentBrowser: Attempting asset rename: NewBlueprint -> BL_Level5
+[2025.09.27-03.49.39:814][956]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.09.27-03.49.39:859][956]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.09.27-03.49.39:859][956]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_13'.
+[2025.09.27-03.49.48:441][ 52]LogContentBrowser: Attempting asset rename: BL_Level5 -> BL_Level5
+[2025.09.27-03.49.48:635][ 54]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Levels/BL_Level5.BL_Level5
+[2025.09.27-03.49.48:640][ 54]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.09.27-03.49.48:647][ 54]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_14'.
+[2025.09.27-03.50.01:631][349]LogContentBrowser: Attempting asset rename: BL_Level5 -> BL_Level5
+[2025.09.27-03.50.10:562][496]LogContentBrowser: Attempting asset rename: BL_Level5 -> BP_Level5
+[2025.09.27-03.50.10:835][496]LogMetaData: Removing '/Game/Blueprints/Levels/BP_Level5.BP_Level5:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Levels/BL_Level5.PackageMetaData'
+[2025.09.27-03.50.10:835][496]LogMetaData: Removing '/Game/Blueprints/Levels/BP_Level5.SKEL_BP_Level5_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Levels/BL_Level5.PackageMetaData'
+[2025.09.27-03.50.10:835][496]LogMetaData: Removing '/Game/Blueprints/Levels/BP_Level5.SKEL_BP_Level5_C' ref from Metadata '/Game/Blueprints/Levels/BL_Level5.PackageMetaData'
+[2025.09.27-03.50.10:835][496]LogMetaData: Removing '/Game/Blueprints/Levels/BP_Level5.BP_Level5_C' ref from Metadata '/Game/Blueprints/Levels/BL_Level5.PackageMetaData'
+[2025.09.27-03.50.10:835][496]LogMetaData: Removing '/Game/Blueprints/Levels/BP_Level5.BP_Level5:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Levels/BL_Level5.PackageMetaData'
+[2025.09.27-03.50.10:835][496]LogMetaData: Removing '/Game/Blueprints/Levels/BP_Level5.BP_Level5:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Blueprints/Levels/BL_Level5.PackageMetaData'
+[2025.09.27-03.50.10:835][496]LogMetaData: Removing '/Game/Blueprints/Levels/BP_Level5.BP_Level5:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Levels/BL_Level5.PackageMetaData'
+[2025.09.27-03.50.10:838][496]LogMetaData: Removing '/Game/Blueprints/Levels/BP_Level5.BP_Level5:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Blueprints/Levels/BL_Level5.PackageMetaData'
+[2025.09.27-03.50.10:838][496]LogMetaData: Removing '/Game/Blueprints/Levels/BP_Level5.BP_Level5:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Levels/BL_Level5.PackageMetaData'
+[2025.09.27-03.50.10:838][496]LogMetaData: Removing '/Game/Blueprints/Levels/BP_Level5.BP_Level5:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/Blueprints/Levels/BL_Level5.PackageMetaData'
+[2025.09.27-03.50.10:866][496]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.27-03.50.10:867][496]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Levels/BP_Level5] ([2] browsable assets)...
+[2025.09.27-03.50.10:868][496]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.09.27-03.50.10:868][496]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM5) returned false, for scene: 'World /Engine/Transient.World_15'.
+[2025.09.27-03.50.10:901][496]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Levels/BP_Level5.BP_Level5]
+[2025.09.27-03.50.10:901][496]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Levels/BP_Level5]
+[2025.09.27-03.50.10:901][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Levels/BP_Level5" FILE="../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level5.uasset" SILENT=true
+[2025.09.27-03.50.10:909][496]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/BP_Level5
+[2025.09.27-03.50.10:909][496]LogSavePackage: Moving '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Saved/BP_Level5231804D045FF00D8BA54FBB6B15A5B8D.tmp' to '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level5.uasset'
+[2025.09.27-03.50.10:921][496]LogFileHelpers: InternalPromptForCheckoutAndSave took 54.795 ms (total: 2.29 sec)
+[2025.09.27-03.50.11:005][496]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2025.09.27-03.50.11:037][496]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.09.27-03.50.11:062][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.09.27-03.50.11:146][496]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.27-03.50.11:146][496]LogContentValidation: Enabled validators:
+[2025.09.27-03.50.11:146][496]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.27-03.50.11:146][496]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.27-03.50.11:146][496]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.27-03.50.11:146][496]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.27-03.50.11:146][496]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.27-03.50.11:146][496]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.27-03.50.11:146][496]AssetCheck: /Game/Blueprints/Levels/BP_Level5 Validating asset
+[2025.09.27-03.50.14:039][649]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6097.807617
+[2025.09.27-03.50.14:167][653]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.27-03.50.14:168][653]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6097.895508, Update Interval: 338.314148
+[2025.09.27-03.50.17:863][812]LogSlate: Window 'BP_Level5' being destroyed
+[2025.09.27-03.50.43:315][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.09.27-03.50.43:319][ 52]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Gameplay' took 0.032
+[2025.09.27-03.50.43:319][ 52]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Levels/BP_Level2] ([2] browsable assets)...
+[2025.09.27-03.50.43:335][ 52]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Levels/BP_Level2.BP_Level2]
+[2025.09.27-03.50.43:335][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Levels/BP_Level2]
+[2025.09.27-03.50.43:341][ 52]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Levels/BP_Level2_Auto2
+[2025.09.27-03.50.43:341][ 52]LogSavePackage: Moving '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Saved/BP_Level2_Auto26BFE00E14DDCB63C96619FA8E12E5E9F.tmp' to '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Saved/Autosaves/Game/Blueprints/Levels/BP_Level2_Auto2.uasset'
+[2025.09.27-03.50.43:343][ 52]LogFileHelpers: Auto-saving content packages took 0.025
+[2025.09.27-03.50.46:413][180]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.27-03.50.46:478][180]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Levels/BP_Level5] ([2] browsable assets)...
+[2025.09.27-03.50.46:478][180]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Levels/BP_Level5]
+[2025.09.27-03.50.46:478][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Levels/BP_Level5" FILE="../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level5.uasset" SILENT=true
+[2025.09.27-03.50.46:483][180]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/BP_Level5
+[2025.09.27-03.50.46:484][180]LogSavePackage: Moving '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Saved/BP_Level52B4D673F456BC8652A6EC995E2025951.tmp' to '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level5.uasset'
+[2025.09.27-03.50.46:502][180]LogFileHelpers: InternalPromptForCheckoutAndSave took 89.640 ms (total: 2.38 sec)
+[2025.09.27-03.50.46:565][180]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.27-03.50.46:565][180]LogContentValidation: Enabled validators:
+[2025.09.27-03.50.46:565][180]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.27-03.50.46:565][180]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.27-03.50.46:565][180]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.27-03.50.46:565][180]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.27-03.50.46:565][180]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.27-03.50.46:565][180]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.27-03.50.46:565][180]AssetCheck: /Game/Blueprints/Levels/BP_Level5 Validating asset
+[2025.09.27-03.52.39:549][653]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.27-03.52.39:613][653]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Levels/BP_Level4] ([2] browsable assets)...
+[2025.09.27-03.52.39:619][653]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Levels/BP_Level4.BP_Level4]
+[2025.09.27-03.52.39:619][653]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Levels/BP_Level4]
+[2025.09.27-03.52.39:619][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Levels/BP_Level4" FILE="../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level4.uasset" SILENT=true
+[2025.09.27-03.52.39:627][653]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/BP_Level4
+[2025.09.27-03.52.39:627][653]LogSavePackage: Moving '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Saved/BP_Level403F3D85D438C64206296ADA60C20F79B.tmp' to '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level4.uasset'
+[2025.09.27-03.52.39:644][653]LogFileHelpers: InternalPromptForCheckoutAndSave took 95.319 ms (total: 2.48 sec)
+[2025.09.27-03.52.39:712][653]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.27-03.52.39:712][653]LogContentValidation: Enabled validators:
+[2025.09.27-03.52.39:712][653]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.27-03.52.39:712][653]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.27-03.52.39:712][653]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.27-03.52.39:712][653]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.27-03.52.39:712][653]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.27-03.52.39:712][653]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.27-03.52.39:712][653]AssetCheck: /Game/Blueprints/Levels/BP_Level4 Validating asset
+[2025.09.27-03.52.41:186][731]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.09.27-03.53.16:962][799]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.27-03.53.17:036][799]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Levels/BP_Level4] ([2] browsable assets)...
+[2025.09.27-03.53.17:042][799]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Levels/BP_Level4.BP_Level4]
+[2025.09.27-03.53.17:042][799]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Levels/BP_Level4]
+[2025.09.27-03.53.17:042][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Levels/BP_Level4" FILE="../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level4.uasset" SILENT=true
+[2025.09.27-03.53.17:048][799]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/BP_Level4
+[2025.09.27-03.53.17:049][799]LogSavePackage: Moving '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Saved/BP_Level43D71BC4A4BF0A37D10F3B29D299B768C.tmp' to '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level4.uasset'
+[2025.09.27-03.53.17:068][799]LogFileHelpers: InternalPromptForCheckoutAndSave took 106.313 ms (total: 2.58 sec)
+[2025.09.27-03.53.17:148][799]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.27-03.53.17:148][799]LogContentValidation: Enabled validators:
+[2025.09.27-03.53.17:148][799]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.27-03.53.17:148][799]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.27-03.53.17:148][799]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.27-03.53.17:148][799]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.27-03.53.17:148][799]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.27-03.53.17:148][799]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.27-03.53.17:148][799]AssetCheck: /Game/Blueprints/Levels/BP_Level4 Validating asset
+[2025.09.27-03.53.20:108][966]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2025.09.27-03.53.22:925][966]LogSlate: Window 'Save Content' being destroyed
+[2025.09.27-03.53.22:958][966]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.27-03.53.23:020][966]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Levels/BP_Level2] ([2] browsable assets)...
+[2025.09.27-03.53.23:021][966]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Levels/BP_Level2]
+[2025.09.27-03.53.23:021][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Levels/BP_Level2" FILE="../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level2.uasset" SILENT=true
+[2025.09.27-03.53.23:026][966]LogSavePackage: Moving output files for package: /Game/Blueprints/Levels/BP_Level2
+[2025.09.27-03.53.23:026][966]LogSavePackage: Moving '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Saved/BP_Level2A4615706497804A7672A68918868BAE2.tmp' to '../../../../../../Users/Owner/Unreal Projects/G-Force-Game/G_Force/Content/Blueprints/Levels/BP_Level2.uasset'
+[2025.09.27-03.53.23:042][966]LogFileHelpers: InternalPromptForCheckoutAndSave took 84.279 ms (total: 2.67 sec)
+[2025.09.27-03.53.23:097][966]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.27-03.53.23:097][966]LogContentValidation: Enabled validators:
+[2025.09.27-03.53.23:097][966]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.27-03.53.23:097][966]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.27-03.53.23:097][966]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.27-03.53.23:097][966]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.27-03.53.23:097][966]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.27-03.53.23:097][966]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.27-03.53.23:097][966]AssetCheck: /Game/Blueprints/Levels/BP_Level2 Validating asset
+[2025.09.27-03.53.23:118][966]LogAutomationController: Ignoring very large delta of 3.05 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests

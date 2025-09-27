@@ -2,6 +2,7 @@
 
 
 #include "Base_Level.h"
+#include "Components/BoxComponent.h"
 
 // Sets default values
 ABase_Level::ABase_Level()
@@ -15,6 +16,11 @@ ABase_Level::ABase_Level()
 void ABase_Level::BeginPlay()
 {
 	Super::BeginPlay();
+
+	if(Trigger != nullptr)
+	{
+		Trigger->bHiddenInGame = true; //is Trigger now TriggerBox?
+	}
 	
 }
 
@@ -23,5 +29,16 @@ void ABase_Level::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+
+UBoxComponent* ABase_Level::GetTrigger()
+{
+	return Trigger;
+}
+
+UBoxComponent* ABase_Level::GetSpawnLocation()
+{
+	return SpawnLocation;
 }
 
