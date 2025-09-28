@@ -79,5 +79,11 @@
     <ClCompile Include="..\..\Source\G_Force\RunnerCharacter.h">
       <Filter>Source\G_Force</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\G_Force\SpawnLevel.cpp">
+      <Filter>Source\G_Force</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G_Force\SpawnLevel.h">
+      <Filter>Source\G_Force</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

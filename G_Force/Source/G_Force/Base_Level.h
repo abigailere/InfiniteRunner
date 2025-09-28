@@ -6,7 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "Base_Level.generated.h"
 
-//TS: 38:50
+
 class UBoxComponent; //forward declaraction so we don't have to use include
 
 UCLASS()
