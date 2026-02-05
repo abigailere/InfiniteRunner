@@ -2,6 +2,9 @@
 
 
 #include "SpawnLevel.h"
+#include "Base_Level.h"
+#include "Engine.h"
+#include "Components/BoxComponent.h"
 
 // Sets default values
 ASpawnLevel::ASpawnLevel()
@@ -35,7 +38,7 @@ void ASpawnLevel::Tick(float DeltaTime)
 	//the newLevel is a nullptr and when a level is spawned it will be assigned to each level
 void ASpawnLevel::SpawnLevel(bool isFirst)
 {
-	spawnLocation = FVector(0.0f, 2000.0f, 0.0f); // spawn location, adjust as needed. the level should be 2000 units long
+	spawnLocation = FVector(0.0f, 1000.0f, 0.0f); // spawn location, adjust as needed. the level should be 2000 units long
 	spawnRotation = FRotator(0, 90, 0); // spawn rotation, adjust as needed
 
 	if(!isFirst){
@@ -65,13 +68,14 @@ void ASpawnLevel::SpawnLevel(bool isFirst)
 			//when overlapped with the trigger, it will call the OnOverlapBegin function in SpawnLevel
 			//add dynamic: assign func thatll be executedd when there is an overlap
 		}
-		levelList.Add(newLevel); //add the new level to the array
-		if (levelList.Num() > 5) { //if there are more than 5 levels in the array, remove the first level
+		
+	}
+	
+	levelList.Add(newLevel); //add the new level to the array
+		if (levelList.Num() > 4) { //if there are more than 5 levels in the array, remove the first level
 			levelList.RemoveAt(0);
 			
 		}
-	}
-
 	
 }
 

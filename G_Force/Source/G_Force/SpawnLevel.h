@@ -11,7 +11,7 @@
 #include "SpawnLevel.generated.h"
 
 
-class ABaseLevel;
+class ABase_Level;
 
 UCLASS()
 class G_FORCE_API ASpawnLevel : public AActor
@@ -32,16 +32,16 @@ public:
 
 public:
 	UFUNCTION() 
-		void SpawnLevel(bool isFirst);
+	void SpawnLevel(bool isFirst); //is this the first level?
 	
 	UFUNCTION()
-		void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
-			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
+		UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 protected:
 	APawn* Player;
 
-	UPROPERTY(EditAnywhere) //TS: 1:02:00
+	UPROPERTY(EditAnywhere) //will be able to edit in the blueprint
 		TSubclassOf<ABase_Level> Level1;
 	
 	UPROPERTY(EditAnywhere)
@@ -56,7 +56,7 @@ protected:
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<ABase_Level> Level5;
 
-		TArray<ABase_Level*> levelList; //array to hold the levels
+	TArray<ABase_Level*> levelList; //array to hold the levels
 
 public:
 	int randomLevel;

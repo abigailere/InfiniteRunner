@@ -36,7 +36,13 @@ struct Z_Construct_UFunction_ASpawnLevel_OnOverlapBegin_Statics
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//is this the first level?\n" },
+#endif
 		{ "ModuleRelativePath", "SpawnLevel.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "is this the first level?" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OverlappedComp_MetaData[] = {
 		{ "EditInline", "true" },
@@ -175,11 +181,11 @@ struct Z_Construct_UClass_ASpawnLevel_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Level1_MetaData[] = {
 		{ "Category", "SpawnLevel" },
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "//TS: 1:02:00\n" },
+		{ "Comment", "//will be able to edit in the blueprint\n" },
 #endif
 		{ "ModuleRelativePath", "SpawnLevel.h" },
 #if !UE_BUILD_SHIPPING
-		{ "ToolTip", "TS: 1:02:00" },
+		{ "ToolTip", "will be able to edit in the blueprint" },
 #endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Level2_MetaData[] = {
@@ -207,7 +213,7 @@ struct Z_Construct_UClass_ASpawnLevel_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_ASpawnLevel_OnOverlapBegin, "OnOverlapBegin" }, // 2778162431
+		{ &Z_Construct_UFunction_ASpawnLevel_OnOverlapBegin, "OnOverlapBegin" }, // 2634863176
 		{ &Z_Construct_UFunction_ASpawnLevel_SpawnLevel, "SpawnLevel" }, // 2586709592
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -269,10 +275,10 @@ ASpawnLevel::~ASpawnLevel() {}
 struct Z_CompiledInDeferFile_FID_Users_Owner_Unreal_Projects_G_Force_Game_G_Force_Source_G_Force_SpawnLevel_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ASpawnLevel, ASpawnLevel::StaticClass, TEXT("ASpawnLevel"), &Z_Registration_Info_UClass_ASpawnLevel, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASpawnLevel), 3102535820U) },
+		{ Z_Construct_UClass_ASpawnLevel, ASpawnLevel::StaticClass, TEXT("ASpawnLevel"), &Z_Registration_Info_UClass_ASpawnLevel, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASpawnLevel), 4278797594U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Owner_Unreal_Projects_G_Force_Game_G_Force_Source_G_Force_SpawnLevel_h_1889633950(TEXT("/Script/G_Force"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Owner_Unreal_Projects_G_Force_Game_G_Force_Source_G_Force_SpawnLevel_h_521218196(TEXT("/Script/G_Force"),
 	Z_CompiledInDeferFile_FID_Users_Owner_Unreal_Projects_G_Force_Game_G_Force_Source_G_Force_SpawnLevel_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Owner_Unreal_Projects_G_Force_Game_G_Force_Source_G_Force_SpawnLevel_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
