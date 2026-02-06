@@ -7,7 +7,11 @@
         "Includes": [
             "c:\\users\\owner\\unreal projects\\g-force-game\\g_force\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\g_force\\definitions.g_force.h",
             "c:\\users\\owner\\unreal projects\\g-force-game\\g_force\\source\\g_force\\base_level.h",
-            "c:\\users\\owner\\unreal projects\\g-force-game\\g_force\\intermediate\\build\\win64\\unrealeditor\\inc\\g_force\\uht\\base_level.generated.h"
+            "c:\\users\\owner\\unreal projects\\g-force-game\\g_force\\intermediate\\build\\win64\\unrealeditor\\inc\\g_force\\uht\\base_level.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

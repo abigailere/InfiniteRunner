@@ -34,6 +34,12 @@
     <Filter Include="Source\G_Force">
       <UniqueIdentifier>{3719E9D8-0775-378A-9FCA-D65AFDDD8C85}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\G_Force\BaseLevel.cpp">
+      <Filter>Source\G_Force</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G_Force\BaseLevel.h">
+      <Filter>Source\G_Force</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\G_Force\Base_Level.cpp">
       <Filter>Source\G_Force</Filter>
     </ClCompile>
@@ -71,6 +77,12 @@
       <Filter>Source\G_Force</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\G_Force\RunnerCharacter.h">
+      <Filter>Source\G_Force</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G_Force\SpawnLevel.cpp">
+      <Filter>Source\G_Force</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G_Force\SpawnLevel.h">
       <Filter>Source\G_Force</Filter>
     </ClCompile>
   </ItemGroup>

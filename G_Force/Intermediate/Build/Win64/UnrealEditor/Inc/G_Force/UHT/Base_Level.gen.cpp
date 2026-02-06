@@ -39,13 +39,25 @@ struct Z_Construct_UClass_ABase_Level_Statics
 		{ "ToolTip", "forward declaraction so we don't have to use include" },
 #endif
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TriggerBox_MetaData[] = {
-		{ "Category", "Trigger" },
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Trigger_MetaData[] = {
+		{ "Category", "My Triggers" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Base_Level.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnLocation_MetaData[] = {
+		{ "Category", "My Triggers" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//can be read and written, editted in editor, blueprint, etc, belongs to category Triggers\n" },
+#endif
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Base_Level.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "can be read and written, editted in editor, blueprint, etc, belongs to category Triggers" },
+#endif
+	};
 #endif // WITH_METADATA
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_TriggerBox;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_Trigger;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_SpawnLocation;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -53,9 +65,11 @@ struct Z_Construct_UClass_ABase_Level_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABase_Level_Statics::NewProp_TriggerBox = { "TriggerBox", nullptr, (EPropertyFlags)0x002008000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABase_Level, TriggerBox), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TriggerBox_MetaData), NewProp_TriggerBox_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABase_Level_Statics::NewProp_Trigger = { "Trigger", nullptr, (EPropertyFlags)0x002008000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABase_Level, Trigger), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Trigger_MetaData), NewProp_Trigger_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABase_Level_Statics::NewProp_SpawnLocation = { "SpawnLocation", nullptr, (EPropertyFlags)0x002008000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABase_Level, SpawnLocation), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnLocation_MetaData), NewProp_SpawnLocation_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABase_Level_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Level_Statics::NewProp_TriggerBox,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Level_Statics::NewProp_Trigger,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Level_Statics::NewProp_SpawnLocation,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ABase_Level_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_ABase_Level_Statics::DependentSingletons[])() = {
@@ -98,10 +112,10 @@ ABase_Level::~ABase_Level() {}
 struct Z_CompiledInDeferFile_FID_Users_Owner_Unreal_Projects_G_Force_Game_G_Force_Source_G_Force_Base_Level_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABase_Level, ABase_Level::StaticClass, TEXT("ABase_Level"), &Z_Registration_Info_UClass_ABase_Level, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABase_Level), 2496355968U) },
+		{ Z_Construct_UClass_ABase_Level, ABase_Level::StaticClass, TEXT("ABase_Level"), &Z_Registration_Info_UClass_ABase_Level, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABase_Level), 2709317597U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Owner_Unreal_Projects_G_Force_Game_G_Force_Source_G_Force_Base_Level_h_2572517355(TEXT("/Script/G_Force"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Owner_Unreal_Projects_G_Force_Game_G_Force_Source_G_Force_Base_Level_h_3999447774(TEXT("/Script/G_Force"),
 	Z_CompiledInDeferFile_FID_Users_Owner_Unreal_Projects_G_Force_Game_G_Force_Source_G_Force_Base_Level_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Owner_Unreal_Projects_G_Force_Game_G_Force_Source_G_Force_Base_Level_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
